@@ -1,0 +1,215 @@
+# file outlook.template
+# author Benoit Tellier
+# version 0.1
+# date 21/06/2013
+#
+# brief: Template d'export CVS pour Outlook
+# 
+# Le programme suivant est distribué sous la license Creative Commun (Attribution - Partage
+#       dans les Mêmes conditions 3.0 France)
+#
+#       Ceci signifie que vous êtes libres de :
+#               - partager (reproduire, distribuer et communiquer le présent contenu )
+#               - remixer ( adapter ce contenu )
+#       Selon les conditions suivantes :
+#               - attribution : Vous devez attribuer l'oeuvre de la manière indiquée par l'auteur
+#               (mais pas d'une manière qui suggère qu'il vous approuve)
+#               Ici, il s'agit d'ajoutéer la mention : "D'après le travail de Mr Tellier Benoit"
+#               partout ou la présente license est mentionnée. Vous pouvez bien entendu y ajouter
+#               vos commentaires.
+#               - partage selon les mêmes conditions.
+#       Comprenant bien que :
+#               - Chacunes des conditions suivantes peut être levée si vous obtenez l'autorisation
+#               du titulaire des droits.
+#               - Les droits suivants ne sont en aucun cas affecté par la licence:
+#                       - fair use (prérogatives issues des exceptions et limitations
+#                       aux droits exclusifs
+#                       - Les droits moraux de l'auteur
+#               - A chaque réutilisation / distribution de cette oeuvre, la présente licence
+#               Doit apparaitre clairement.
+#       Plus d'informations sur http://creativecommons.org/licences/by-sa/3.0/fr
+
+# template dédié à Outlook
+
+# Vous pouvez renseigner les champs en "" afin de les faire correspondre aux attibuts que vous avez créé... 
+
+comafields;
+
+combinaisons{
+First Name
+Prénom
+Middle Name
+""
+Last Name
+Nom
+Title
+""
+Suffix
+""
+Initials
+""
+Web Page
+Site
+Gender
+""
+Birthday
+""
+Anniversary
+""
+Location
+""
+Language
+""
+Internet Free Busy
+""
+Notes
+""
+E-mail Address
+e-mail
+E-mail 2 Address
+""
+E-mail 3 Address
+""
+Primary Phone
+""
+Home Phone
+Téléphone
+Home Phone 2
+""
+Mobile Phone
+Portable
+Pager
+""
+Home Fax
+""
+Home Address
+""
+Home Street
+Adresse
+Home Street 2
+""
+Home Street 3
+""
+Home Address PO Box
+""
+Home City
+Ville
+Home State
+""
+Home Postal Code
+Code Postal
+Home Country
+""
+Spouse
+""
+Children
+""
+Manager's Name
+""
+Assistant's Name
+""
+Referred By
+""
+Company Main Phone
+""
+Business Phone
+""
+Business Phone 2
+""
+Business Fax
+""
+Assistant's Phone
+""
+Company
+""
+Job Title
+""
+Department
+""
+Office Location
+""
+Organizational ID Number
+""
+Profession
+""
+Account
+""
+Business Address
+""
+Business Street
+""
+Business Street 2
+""
+Business Street 3
+""
+Business Address PO Box
+""
+Business City
+""
+Business State
+""
+Business Postal Code
+""
+Business Country
+""
+Other Phone
+""
+Other Fax
+""
+Other Address
+""
+Other Street
+""
+Other Street 2
+""
+Other Street 3
+""
+Other Address PO Box
+""
+Other City
+""
+Other State
+""
+Other Postal Code
+""
+Other Country
+""
+Callback
+""
+Car Phone
+""
+ISDN
+""
+Radio Phone
+""
+TTY/TDD Phone
+""
+Telex
+""
+User 1
+""
+User 2
+""
+User 3
+""
+User 4
+""
+Keywords
+""
+Mileage
+""
+Hobby
+""
+Billing Information
+""
+Directory Server
+""
+Sensitivity
+""
+Priority
+<--Normal
+Private
+""
+Categories
+<--My Contacts
+} 

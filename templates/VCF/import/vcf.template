@@ -1,0 +1,84 @@
+# file vcf.template
+# author Benoit Tellier
+# version 0.1
+# date 21/06/2013
+#
+# brief: Template d'import VCF minimal que vous pouvez completer.
+# 
+# Le programme suivant est distribué sous la license Creative Commun (Attribution - Partage
+#       dans les Mêmes conditions 3.0 France)
+#
+#       Ceci signifie que vous êtes libres de :
+#               - partager (reproduire, distribuer et communiquer le présent contenu )
+#               - remixer ( adapter ce contenu )
+#       Selon les conditions suivantes :
+#               - attribution : Vous devez attribuer l'oeuvre de la manière indiquée par l'auteur
+#               (mais pas d'une manière qui suggère qu'il vous approuve)
+#               Ici, il s'agit d'ajoutéer la mention : "D'après le travail de Mr Tellier Benoit"
+#               partout ou la présente license est mentionnée. Vous pouvez bien entendu y ajouter
+#               vos commentaires.
+#               - partage selon les mêmes conditions.
+#       Comprenant bien que :
+#               - Chacunes des conditions suivantes peut être levée si vous obtenez l'autorisation
+#               du titulaire des droits.
+#               - Les droits suivants ne sont en aucun cas affecté par la licence:
+#                       - fair use (prérogatives issues des exceptions et limitations
+#                       aux droits exclusifs
+#                       - Les droits moraux de l'auteur
+#               - A chaque réutilisation / distribution de cette oeuvre, la présente licence
+#               Doit apparaitre clairement.
+#       Plus d'informations sur http://creativecommons.org/licences/by-sa/3.0/fr
+
+ref{
+N
+sep:;
+Nom
+sep:;
+Prénom
+}
+
+ref{
+EMAIL;TYPE=INTERNET;TYPE=HOME
+sep:;
+e-mail
+}
+
+ref{
+TEL;TYPE=CELL
+sep:;
+Portable
+}
+
+ref{
+TEL;TYPE=HOME:
+sep:;
+Téléphone
+}
+
+ref{
+item1.URL
+sep:;
+Site
+}
+
+ref{
+ADR;TYPE=HOME
+sep:;
+""
+sep:;
+""
+sep:;
+Adresse
+sep:;
+Ville
+sep:;
+""
+sep:;
+Code Postal
+}
+
+ref{
+item2.URL
+sep:;
+Blog
+}

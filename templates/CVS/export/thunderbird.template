@@ -1,0 +1,113 @@
+# file thunderbird.template
+# author Benoit Tellier
+# version 0.1
+# date 21/06/2013
+#
+# brief: Template d'export CVS pour thunderbird
+# 
+# Le programme suivant est distribué sous la license Creative Commun (Attribution - Partage
+#       dans les Mêmes conditions 3.0 France)
+#
+#       Ceci signifie que vous êtes libres de :
+#               - partager (reproduire, distribuer et communiquer le présent contenu )
+#               - remixer ( adapter ce contenu )
+#       Selon les conditions suivantes :
+#               - attribution : Vous devez attribuer l'oeuvre de la manière indiquée par l'auteur
+#               (mais pas d'une manière qui suggère qu'il vous approuve)
+#               Ici, il s'agit d'ajoutéer la mention : "D'après le travail de Mr Tellier Benoit"
+#               partout ou la présente license est mentionnée. Vous pouvez bien entendu y ajouter
+#               vos commentaires.
+#               - partage selon les mêmes conditions.
+#       Comprenant bien que :
+#               - Chacunes des conditions suivantes peut être levée si vous obtenez l'autorisation
+#               du titulaire des droits.
+#               - Les droits suivants ne sont en aucun cas affecté par la licence:
+#                       - fair use (prérogatives issues des exceptions et limitations
+#                       aux droits exclusifs
+#                       - Les droits moraux de l'auteur
+#               - A chaque réutilisation / distribution de cette oeuvre, la présente licence
+#               Doit apparaitre clairement.
+#       Plus d'informations sur http://creativecommons.org/licences/by-sa/3.0/fr
+
+# template dédié à thunderbird
+
+# Vous pouvez renseigner les champs en "" afin de les faire correspondre aux attibuts que vous avez créé...
+
+coma;
+
+combinaisons{
+Prénom
+Prénom
+Nom de famille
+Nom
+Nom à afficher
+Prénom
+Surnom
+""
+Adresse électronique principale
+e-mail
+Adresse électronique secondaire
+""
+Nom de l'écran
+""
+Tél. professionnel
+""
+Tél. personnel
+Téléphone
+Fax
+""
+Pager
+""
+Portable
+Portable
+Adresse privée
+Adresse
+Adresse privée 2
+""
+Ville
+Ville
+Pays/État
+""
+Code postal
+Code Postal
+Région
+""
+Adresse professionnelle
+""
+Adresse professionnelle 2
+""
+Ville
+""
+Pays/État
+""
+Code postal
+""
+Région
+""
+Profession
+""
+Service
+""
+Société
+""
+Site Web 1
+Site
+Site Web 2
+""
+Année de naissance
+""
+Mois
+""
+Jour
+""
+Divers 1
+""
+Divers 2
+""
+Divers 3
+""
+Divers 4
+""
+Notes
+""
+} 

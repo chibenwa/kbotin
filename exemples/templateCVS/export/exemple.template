@@ -1,0 +1,187 @@
+# file exemple.template
+# author Benoit Tellier
+# version 0.1
+# date 21/06/2013
+#
+# brief: Exemple de template d'import CVS.
+# 
+# Le programme suivant est distribué sous la license Creative Commun (Attribution - Partage
+#       dans les Mêmes conditions 3.0 France)
+#
+#       Ceci signifie que vous êtes libres de :
+#               - partager (reproduire, distribuer et communiquer le présent contenu )
+#               - remixer ( adapter ce contenu )
+#       Selon les conditions suivantes :
+#               - attribution : Vous devez attribuer l'oeuvre de la manière indiquée par l'auteur
+#               (mais pas d'une manière qui suggère qu'il vous approuve)
+#               Ici, il s'agit d'ajoutéer la mention : "D'après le travail de Mr Tellier Benoit"
+#               partout ou la présente license est mentionnée. Vous pouvez bien entendu y ajouter
+#               vos commentaires.
+#               - partage selon les mêmes conditions.
+#       Comprenant bien que :
+#               - Chacunes des conditions suivantes peut être levée si vous obtenez l'autorisation
+#               du titulaire des droits.
+#               - Les droits suivants ne sont en aucun cas affecté par la licence:
+#                       - fair use (prérogatives issues des exceptions et limitations
+#                       aux droits exclusifs
+#                       - Les droits moraux de l'auteur
+#               - A chaque réutilisation / distribution de cette oeuvre, la présente licence
+#               Doit apparaitre clairement.
+#       Plus d'informations sur http://creativecommons.org/licences/by-sa/3.0/fr
+
+# template dédié à Google +
+
+#Ceci est un commentaire
+
+# Ce language comporte un seul mot clé : combinaisons
+# Il est suivi de paires de valeurs séparées par des retours à la ligne au sein
+# d'accolades. La première valeur indique le nom de la colonne CVS, la deuxième
+# indique le nom de l'attribut à utiliser pour remplir la colonne.
+
+# Vous pouvez renseigner les champs en "" afin de les faire correspondre aux attibuts que vous avez créé... 
+
+combinaisons{
+Name
+Prénom
+#La colonne Name comportera le contenu de l'attribut Prénom du contact 
+Given Name
+Prénom
+Additional Name
+""
+#la colonne Additional Name ne comportera pas de valeurs
+Family Name
+Nom
+Yomi Name
+""
+Given Name Yomi
+""
+Additional Name Yomi
+""
+Family Name Yomi
+""
+Name Prefix
+""
+Name Suffix
+""
+Initials
+""
+Nickname
+""
+Short Name
+Prénom
+Maiden Name
+""
+Birthday
+""
+Gender
+""
+Location
+""
+Billing Information
+""
+Directory Server
+""
+Mileage
+""
+Occupation
+""
+Hobby
+""
+Sensitivity
+""
+Priority
+""
+Subject
+""
+Notes
+""
+Group Membership
+<--* My Contacts
+#
+#
+####################### Valeur * My Contacts pour la colonne Group Membership
+#
+#
+E-mail 1 - Type
+<--* Home
+E-mail 1 - Value
+e-mail
+Phone 1 - Type
+<--Home
+Phone 1 - Value
+Téléphone
+Phone 2 - Type
+<--Mobile
+Phone 2 - Value
+Portable
+Address 1 - Type
+<--Home
+Address 1 - Formatted
+home address
+Address 1 - Street
+Adresse
+Address 1 - City
+Ville
+Address 1 - PO Box
+""
+Address 1 - Region
+""
+Address 1 - Postal Code
+Code Postal
+Address 1 - Country
+""
+Address 1 - Extended Address
+""
+Address 2 - Type
+<--Work
+Address 2 - Formatted
+""
+Address 2 - Street
+""
+Address 2 - City
+""
+Address 2 - PO Box
+""
+Address 2 - Region
+""
+Address 2 - Postal Code
+""
+Address 2 - Country
+""
+Address 2 - Extended Address
+""
+Website 1 - Type
+<--Home Page
+Website 1 - Value
+Site
+Website 2 - Type
+<--Blog
+Website 2 - Value
+""
+}
+
+############ Directives :
+
+#Les directives appliquent de petits correctifs afin de correspondre à la variante CVS souhaitée.
+#Elles définissent une politique d'ensemble.
+#Mieux qu'un grand discours, je vous propose des exemples
+
+#Sans directives, le comportement est :
+# Champ 1, Champ 2
+# Valeur 1, Valeur 2
+
+#quote;
+##Les champs et valeurs apparaissent ainsi :
+# "Champ 1", "Champ 2"
+# "Valeur 1", "Valeur 2"
+
+#coma;
+##Les champs et valeurs apparaissent ainsi :
+# Champ 1, Champ 2,
+# Valeur 1, Valeur 2,
+
+#comafields;
+##Les champs et valeurs apparaissent ainsi :
+# Champ 1, Champ 2
+# Valeur 1, Valeur 2,
+
