@@ -53,13 +53,13 @@ int main(int argc, char **argv)
 {
 	srand(time(0));
 	
-	QTextCodec::setCodecForCStrings(QTextCodec::codecForName("UTF-8"));
-	QTextCodec::setCodecForTr(QTextCodec::codecForName("UTF-8"));
+	//QTextCodec::setCodecForCStrings(QTextCodec::codecForName("UTF-8"));
+	//QTextCodec::setCodecForTr(QTextCodec::codecForName("UTF-8"));
 	
 	QApplication app(argc, argv);
-    QApplication::setApplicationName("KBotin");
+        QApplication::setApplicationName("KBotin");
     
-    QString locale = QLocale::system().name().section('_', 0, 0);
+        QString locale = QLocale::system().name().section('_', 0, 0);
 	QTranslator *translator = new QTranslator;
 	translator->load(QString("qt_") + locale, QLibraryInfo::location(QLibraryInfo::TranslationsPath));
 	translator->load( QString( COMMON_RESSOURCES_PATH ) + QString("trad/kbotin_") + locale + QString(".qm"));

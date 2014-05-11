@@ -49,12 +49,10 @@ class Serveur:public QTcpServer
 		Serveur(MainWindow* w = 0);
 		~Serveur();
 		void listenWeb();
-		void setPort(qint16 port)
-		{
+		void setPort(qint16 port) {
 			mPort = port;
 		}
-		qint16 port() const
-		{
+		qint16 port() const {
 			return mPort;
 		}
 	private slots:

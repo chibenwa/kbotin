@@ -8,6 +8,9 @@ SOURCES += ../src/*.cpp
 HEADERS += ../src/*.hpp
 
 QT += network
+QT += widgets
+QT += core
+QT += printsupport
 
 #CONFIG +=  console debug
 
